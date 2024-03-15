@@ -1,0 +1,337 @@
+@charset "utf-8";
+
+/* 共通スタイル */
+*{
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+img{
+	width: 100%;
+	vertical-align: top;
+}
+.catch{
+	width: 100%;
+	height: auto;
+	object-fit: contain;
+	text-align: center;
+}
+p{
+	font-size: 16px;
+}
+.begin{	
+	padding: 10px;
+	width: 90%;
+	margin: 10px auto;
+	text-align: center;
+}	
+.begin h2{
+	width: 90%;
+	background-color: rgb(233, 28, 96);
+	border-radius: 10px;
+	color: white;
+	font-size: 2.5vw;
+	padding: 5px;
+	text-align: center;
+	margin: 30px auto; /* 要素を中央揃え */
+}
+.begin p{
+	margin:10px auto 50px;
+	line-height: 160%;
+	text-align: center;
+	font-size: 1.2vw;
+}
+.begin p span{
+	font-weight: bold;
+	color: rgb(233, 28, 96);
+}
+
+.muryou{
+	width: 95%;
+	height: 18vh;
+	background-image:url(../images/muryoubanner.jpg);
+	background-size: cover;
+	background-position: center;
+	margin: 100px;
+}
+
+.box {
+    background-image: url(../images/aboutback.jpg);
+    background-size: cover;
+    width: 95%; /* 幅を100%に設定 */
+    margin: 100px auto; /* 上下左右のマージンを自動で計算して中央揃え */
+	padding: 10px 40px 40px 40px;
+	border-radius: 10px;
+}
+.hininchi{
+	background-image: url(../images/whitesky.jpg);
+	background-size:cover;
+	background-position: center;
+	width: 95%; /* 幅を100%に設定 */
+    margin:100px auto; /* 上下左右のマージンを自動で計算して中央揃え */
+	padding: 10px 100px 80px 100px;
+	border-radius: 30px;
+}
+.hininchi h3{
+	color: black;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 1.8vw;
+	text-align: center;
+	margin: 100px auto auto 80px; /* 要素を中央揃え */
+	text-shadow:5px 5px #cccccc;
+}
+.hininchi p
+span{
+	color: #ff0033;
+	font-weight: bold;
+}
+.hininchi p{
+	font-size: 1.2vw;
+	border-radius: 5px;
+	line-height: 2em;
+	margin: 50px;
+}
+.about {
+    object-fit: contain;
+    display: block;
+    border-radius: 130px;
+    margin: 40px auto;
+    width: 50%;
+    height: 50%; /* 高さを自動調整 */
+    background: #ffffff;
+    border: 5px solid #cccccc;
+    box-shadow: 0 20px 30px #666666;
+}
+
+.box h2{
+	width: 80%;
+	margin-top: 100px;
+	margin-bottom: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	padding: 10px;
+	font-size: 2.5vw;
+	text-shadow: 4px 4px #99ccff;
+	text-align: center;
+}
+.box h3{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	padding: 5px 5px 0 10px;
+	width: 90%;
+	font-size: 2vw;
+	text-align: center;
+	margin: 30px auto; /* 要素を中央揃え */
+}
+.box h3,h2 span{
+	color: rgb(233, 28, 96);
+	font-weight: bold;
+}
+.box p{
+	font-size: 1.2vw;
+	background-color: white;
+	border-radius: 5px;
+	line-height: 2em;
+	margin: 10px;
+}
+
+.f-box{
+	background-color: white;
+	display: flex;
+	flex-direction: wrap;
+	text-align: center;
+	margin: 40px;
+	overflow: hidden;
+}
+.f-box img{
+    max-width: 100%;
+	object-fit: contain;
+    object-position: center;
+    flex: 0 0 40%;
+    margin: 100px;
+}
+.f-box p{
+	font-size: 1.2vw;
+	text-align: left;
+	line-height: 2em;
+	margin: 100px 150px 100px 80px;
+	flex: 1;	
+}
+.shigeko{
+	flex: 1;
+}
+.shigeko h3{
+	font-size: 1.5vw;
+	margin: 100px auto auto 80px;
+}
+.shigeko p{
+	font-size: 1.2vw;
+	line-height: 1em;
+	margin: 10px auto;
+}
+.f-box p span{
+	font-weight: bold;
+	color: rgb(233, 28, 96);
+}
+.f-box ul{
+	font-size: 1.2vw;
+	text-align: left;
+	line-height: 2em;
+	margin: 30px auto;
+	flex: 1;
+}
+.list-title{
+	list-style-type:none;
+	text-align: center;
+	line-height: 2em;
+	margin: 20px auto;
+	flex: 1;
+	font-size: 1.5vw;
+}
+.list{
+	list-style-type:none;
+	text-align: left;
+	line-height: 1.5em;
+	margin: 20px;
+	flex: 1;
+	font-size: 1.2vw;
+}
+.list-box{
+	margin: 50px;
+	padding: 10px 50px;
+	background-color: aliceblue;
+}
+
+.card {
+    width: 800px; /* カードの幅を指定 */
+    height: auto; /* 高さを自動調整 */
+    background-color: white;
+    margin: 50px auto; /* 上下に50px、左右は自動調整して中央揃え */
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px 1px black;
+    display: flex;
+    text-align: center; /* カード内のテキストを中央揃え */
+	flex-direction: wrap;
+	text-align: center;
+	overflow: hidden;
+}
+cite {
+	display: inline-block;
+	margin: 0;
+	padding-top: 10px;
+	font-size: 79%;
+	font-style: normal;
+}
+.card h4{
+	font-size: 1.5vw;
+	text-align: center;
+	margin: 20px auto;
+	line-height: 1em;
+	flex: auto;
+}
+.koumoku {
+    font-size: 16px;
+    width: auto;/* 幅を自動調整 */
+    display: inline-block; /* ブロック要素をインラインブロックに変更 */
+    text-align: center; /* テキストを中央揃え */
+    background-color:#99ccff;
+    border-radius: 50px;
+    color: black;
+    padding: 5px 20px; /* 上下に5px、左右に20pxの余白 */
+    margin: 30px auto auto 20px; /* 左右の余白を自動調整して中央揃え */
+}
+.card p{
+	font-size: 1.3vw;
+	text-align: center;
+	line-height: 1.2em;
+	margin: 10px;
+
+}
+.gimon{
+	background-color: #F1E3BC;
+	padding: 0 10px 10px 10px;
+	margin-bottom: 15px;
+}
+.qu{background-color: white;
+	margin-bottom: 2px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #895623;
+	background-color: white;
+	line-height: 160%;
+	padding: 5px 20px 5px 30px;
+}
+.an{background-color: white;
+	padding: 10px;
+	margin-bottom: 15px;
+	box-shadow: 2px 2px gray;
+	font-size: 15px;
+	line-height: 180%;
+}
+.an span{
+	font-weight: bold;
+	color: rgb(233, 28, 96);
+}
+.last{
+	font-size: 1.5vw;
+	font-weight: 200;
+	line-height: normal;
+	padding: 50px;
+}
+.last p{
+	margin: 80px auto;
+	padding:50px;
+}
+footer{
+	padding: 3px 10px 10px 3px;
+	background-color:rgb();
+	width: 100%;
+	font-size: 1vw;
+	color: gray;
+	line-height: 150%;
+	font-weight: normal;
+}
+
+footer p{
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	font-size: 1vw;
+	color: gray;
+	line-height: 150%;
+	font-weight: normal;
+}
+.url{
+	list-style: none;
+	display: flex;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.url li{
+	display: inline;
+	float: left;
+	margin:0 10px;
+	font-size: 1vw;
+}
+.url li a{
+	text-align: center;
+	color: #94D56C;
+}
+
+
+
+@media screen and (min-width:800px) {
+
+
+
+
+}
